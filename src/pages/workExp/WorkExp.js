@@ -3,8 +3,10 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import "../workExp/WorkExp.css"
 import { LiaLaptopCodeSolid } from "react-icons/lia";
+import { useTheme } from '../../context/ThemeContext';
 
 const WorkExp = () => {
+    const [theme] = useTheme()
   return (
     <>
     <div className='work' id='workExp'>
@@ -14,10 +16,10 @@ const WorkExp = () => {
         <VerticalTimeline lineColor='#1e1e2c'>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{ background: 'white', color: '#1e1e2c' }}
-                contentArrowStyle={{ borderRight: '7px solid  white' }}
+                // contentArrowStyle={{ borderRight: '7px solid  white' }}
+                contentStyle={theme ==='light' ? ({ background: 'white', color: 'black' }):({ background: '#1e1e2c', color: 'white' })}
                 date="2023 - present"
-                iconStyle={{ background: '#1e1e2c', color: '#fff' }}
+                iconStyle={{ background: '#138781', color: '#fff' }}
                 icon={<LiaLaptopCodeSolid />}>
                 <h3 className="vertical-timeline-element-title">Full Stack Developer</h3>
                 <h4 className="vertical-timeline-element-subtitle">XYZ private limited</h4>
@@ -27,10 +29,11 @@ const WorkExp = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{ background: 'white', color: '#1e1e2c' }}
+                // contentStyle={{ background: 'white', color: 'black' }}
+                contentStyle={theme ==='light' ? ({ background: 'white', color: 'black' }):({ background: '#1e1e2c', color: 'white' })}
                 contentArrowStyle={{ borderRight: '7px solid  white' }}
                 date="2023 - present"
-                iconStyle={{ background: '#1e1e2c', color: '#fff' }}
+                iconStyle={{ background: '#138781', color: '#fff' }}
                 icon={<LiaLaptopCodeSolid />}>
                 <h3 className="vertical-timeline-element-title">Full Stack Developer</h3>
                 <h4 className="vertical-timeline-element-subtitle">XYZ private limited</h4>
@@ -40,10 +43,11 @@ const WorkExp = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{ background: 'white', color: '#1e1e2c' }}
+                // contentStyle={{ background: 'white', color: 'black' }}
+                contentStyle={theme ==='light' ? ({ background: 'white', color: 'black' }):({ background: '#1e1e2c', color: 'white' })}
                 contentArrowStyle={{ borderRight: '7px solid  white' }}
                 date="2023 - present"
-                iconStyle={{ background: '#1e1e2c', color: '#fff' }}
+                iconStyle={{ background: '#138781', color: '#fff' }}
                 icon={<LiaLaptopCodeSolid />}>
                 <h3 className="vertical-timeline-element-title">Full Stack Developer</h3>
                 <h4 className="vertical-timeline-element-subtitle">XYZ private limited</h4>

@@ -1,6 +1,10 @@
 .work{
-    background-color: #1387812a;
+
+    padding: 1px 0px;
+    margin: 50px 0px;
     margin-left: 140px;
+    background-color: rgba(128, 128, 128, 0.204);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
 }
 
@@ -10,13 +14,15 @@
 
 .work-exp h2{
     font-weight: bold;
-    color: #1e1e2c;
+    color: #138781;
+    font-family: cursive;
 }
 
 .work-exp hr{
     color: #138781;
     width: 400px;
     margin: 10px auto;
+    border: solid 2px;
 }
 
 .work-exp .vertical-timeline-element-title{
@@ -24,5 +30,9 @@
 }
 
 .work-exp .vertical-timeline-element-subtitle{
-    color: #1e1e2c8e;
+    color: red;
+}
+
+#dark .work-exp .vertical-timeline-element-subtitle{
+    color: gold;
 }

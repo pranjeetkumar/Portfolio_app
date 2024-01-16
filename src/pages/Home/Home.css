@@ -23,7 +23,7 @@
 }
 
 .home-buttons .btn-hire{
-    background-color: #3b8ff3;
+    background-color: #138781;
     color: white;
     width: 160px;
 }
@@ -44,4 +44,20 @@
 .home-buttons .btn-cv:hover{
     opacity: 80%;
     transition: 1s;
+}
+
+.theme-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color: #1e1e1e;
+    margin-top: 20px;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    cursor: pointer;
+    border-radius: 10px;
+    z-index: 1;
 }
