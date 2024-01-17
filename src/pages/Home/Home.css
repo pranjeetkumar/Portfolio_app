@@ -37,7 +37,9 @@
     width: 170px;
     transition: 0.75s;
     border: 3px groove #00fffc;
+    box-shadow: 0 0 20px 5px;
 }
+
 
 .home-buttons .btn-cv{
     background-color: #f29f67;
@@ -52,6 +54,7 @@
     width: 170px;
     transition: 0.75s;
     border: 3px solid #00fffc;
+    box-shadow: 0 0 20px 5px;
 }
 
 .theme-btn{

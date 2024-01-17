@@ -8,6 +8,7 @@ import Techstack from "./pages/TechStack/Techstack";
 import WorkExp from "./pages/workExp/WorkExp";
 import ScrollToTop from "react-scroll-to-top";
 import { useTheme } from "./context/ThemeContext";
+import Tada from 'react-reveal/Tada';
 
 
 
@@ -26,9 +27,11 @@ function App() {
         <Contact/>
       </div>
       <div className="footer pb-5 ms-0">
+        <Tada>
         <h4 className="text-center">
           &copy; 2024 All rights reserved.
         </h4>
+        </Tada>
       </div>
       </div>
       <ScrollToTop smooth color="black" style={{backgroundColor:'#00abf0',borderRadius:'80px'}}/>

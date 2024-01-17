@@ -1,5 +1,7 @@
 import React from 'react';
 import '../Menus/Menus.css';
+import Zoom from 'react-reveal/Zoom';
+import Rotate from 'react-reveal/Rotate';
 import pic_pran from "../../assets/images/pran_pic.jpg";
 import {FcAbout, FcBiotech, FcBusinessContact, FcHome, FcPortraitMode, FcReadingEbook, FcVideoProjector} from "react-icons/fc";
 import { Link } from 'react-scroll';
@@ -11,9 +13,12 @@ const Menus = ({toggle}) => {
     <>
     {toggle ? (
       <>
+      <Zoom>
       <div className="navbar-profile-pic">
         <img src={pic_pran} alt='profile pic'/>
       </div>
+      </Zoom>
+      <Rotate bottom left>
       <div className='nav-items'>
         <div className='nav-item'>
           <div className='nav-link'>
@@ -63,6 +68,7 @@ const Menus = ({toggle}) => {
           
         </div>
       </div>
+      </Rotate>
       </>
     ) : (
       <>

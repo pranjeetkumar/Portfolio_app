@@ -1,10 +1,12 @@
 import React from 'react'
 import "../About/About.css";
-import pran_img from "../../assets/images/pran.jpg"
+import pran_img from "../../assets/images/pran.jpg";
+import Fade from 'react-reveal/Fade';
 
 const About = () => {
   return (
     <>
+    <Fade top>
     <div className='about' id='about'>
         <div className='row'>
             <div className='col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img'>
@@ -18,6 +20,7 @@ const About = () => {
             </div>
         </div>
     </div>
+    </Fade>
     </>
   )
 }

@@ -2,6 +2,9 @@ import React from 'react';
 import "../Contact/Contact.css";
 import contact_img from "../../assets/images/Contact-us.png";
 import {BsGithub, BsInstagram, BsLinkedin} from 'react-icons/bs'
+import Rotate from 'react-reveal/Rotate';
+import Wobble from 'react-reveal/Wobble';
+
 
 const Contact = () => {
   return (
@@ -12,11 +15,14 @@ const Contact = () => {
                 <div className='col-md-6 col-lg-6 col-xl-6 col-sm-12'>
                     <div className='card1'>
                         <div className='row border-line'>
+                            <Wobble>
                             <img src={contact_img} alt='' className='image'/>
+                            </Wobble>
                         </div>
                     </div>
                 </div>
                 <div className='col-lg-6 col-md-6'>
+                    <Rotate>
                     <div className='card2 d-flex card border-0 px-4 py-5'>
                         <div className='row'>
                             <div className='row'>
@@ -48,6 +54,7 @@ const Contact = () => {
                     </div>
                     
                 </div>
+                </Rotate>
                 </div>
             </div>
         </div>
