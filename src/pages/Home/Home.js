@@ -22,7 +22,7 @@ const Home = () => {
         </div>
         <div className='container home-content'>
           <Fade right>
-          <h2>Hi 👋 I'm Pranjeet Kumar a</h2>
+          <h2>Hi 👋 I'm Pranjeet Kumar, a</h2>
           <h1>
             <Typewriter options={{
               strings: ['Python Developer !', 'Javascript Developer !', 'Java Developer !'],
