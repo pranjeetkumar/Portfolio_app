@@ -28,3 +28,20 @@
 #dark .education .vertical-timeline-element-subtitle{
     color: gold;
 }
+
+
+/* ====================responsive============ */
+
+@media (max-width:600px){
+    .education{
+        margin: 0;
+        padding: 0;
+        margin-top: 30px;
+    }
+    .education h2{
+        padding-top: 30px;
+    }
+    .education hr{
+        width: 220px;
+    }
+}

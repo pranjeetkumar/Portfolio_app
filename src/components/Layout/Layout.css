@@ -26,3 +26,11 @@
 #dark .sidebar-section{
     background-color: #1e1e2c;
 }
+
+/* ==========responsiveness=========== */
+
+@media (max-width:600px){
+    .sidebar{
+        display: none;
+    }
+}

@@ -9,6 +9,7 @@ import WorkExp from "./pages/workExp/WorkExp";
 import ScrollToTop from "react-scroll-to-top";
 import { useTheme } from "./context/ThemeContext";
 import Tada from 'react-reveal/Tada';
+import MobileNav from "./components/MobileNav/MobileNav";
 
 
 
@@ -17,6 +18,7 @@ function App() {
   return (
     <>
     <div id={theme}>
+      <MobileNav/>
       <Layout/>
       <div className="container">
         <About/>

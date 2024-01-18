@@ -10,3 +10,15 @@
 #dark{
   background-color: rgba(0, 0, 0, 0.863);
 }
+
+
+
+/* ==============responsive--------- */
+
+@media (max-width:600px){
+  .footer{
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+  }
+}

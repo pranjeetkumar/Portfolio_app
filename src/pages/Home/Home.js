@@ -25,7 +25,7 @@ const Home = () => {
           <h2>Hi 👋 I'm Pranjeet Kumar a</h2>
           <h1>
             <Typewriter options={{
-              strings: ['Full Stack Developer !', 'MERN Stack Developer !', 'Python Devloper !'],
+              strings: ['Python Developer !', 'Javascript Developer !', 'Java Developer !'],
               autoStart: true,
               loop: true,
             }}/>
@@ -35,7 +35,8 @@ const Home = () => {
          
           <Zoom bottom>
           <div className='home-buttons'>
-            <button className='btn btn-hire'>Hire Me</button>
+            <a className='btn btn-hire' href='https://api.whatsapp.com/send?phone=+919501796843' rel='noreferrer' target='_blank'>Hire Me</a>
+            {/* <button className='btn btn-hire'>Hire Me</button> */}
             <a className='btn btn-cv' href={Resume} download="Pranjeet_Kumar(CV).pdf">My Resume</a>
           </div>
           </Zoom>
