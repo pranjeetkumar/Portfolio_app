@@ -8,7 +8,6 @@ import { TfiEmail } from "react-icons/tfi";
 import Rotate from 'react-reveal/Rotate';
 import Wobble from 'react-reveal/Wobble';
 
-
 const Contact = () => {
 
     const [name, setname] = useState("")
@@ -23,7 +22,21 @@ const Contact = () => {
         try {
             if(!name || !email || !msg){
                 toast.error("Please provide all fields");
+                return
             }
+
+            const isValidEmail = /[a-z0-9]+@[a-z]+\.[a-z]{2,3}/;
+            if(!isValidEmail.test(email)){
+                toast.error("Invalid Email")
+                return
+            }
+
+            const isValidName =  /^[^\d]+$/;
+            if(!isValidName.test(name)){
+                toast.error("Please Enter Correct Name")
+                return
+            }
+
             const res = await axios.post('/api/v1/portfolio/sendEmail',{name, email, msg})
 
             // validation success

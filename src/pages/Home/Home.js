@@ -35,9 +35,9 @@ const Home = () => {
          
           <Zoom bottom>
           <div className='home-buttons'>
-            <a className='btn btn-hire' href='https://api.whatsapp.com/send?phone=+919501796843' rel='noreferrer' target='_blank'>Hire Me</a>
-            {/* <button className='btn btn-hire'>Hire Me</button> */}
-            <a className='btn btn-cv' href={Resume} download="Pranjeet_Kumar(CV).pdf">My Resume</a>
+            {/* <a className='btn btn-hire' href='https://api.whatsapp.com/send?phone=+919501796843' rel='noreferrer' target='_blank'>Hire Me</a> */}
+            <a className='btn btn-hire' href='https://wa.me/+919501796843' rel='noreferrer' target='_blank'>Hire Me</a>
+            <a className='btn btn-cv' href={Resume} download="Pranjeet_Kumar(CV).pdf">Download CV</a>
           </div>
           </Zoom>
           
