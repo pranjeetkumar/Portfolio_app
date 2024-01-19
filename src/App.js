@@ -35,7 +35,8 @@ function App() {
       <div className="footer pb-5 ms-0">
         <Tada>
         <h4 className="text-center">
-          &copy; 2024 All rights reserved.
+          {/* &copy; 2024 All rights reserved. */}
+          Thank you for investing your time and expertise in reviewing my portfolio.
         </h4>
         </Tada>
       </div>

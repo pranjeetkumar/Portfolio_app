@@ -71,7 +71,7 @@ const Projects = () => {
                     <div className='card-image-overly m-auto mt-3'>
                         <span className='card-detail-badge'>Python, </span>
                         <span className='card-detail-badge'>Tkinter, </span>
-                        <span className='card-detail-badge'>SQLite3, </span>
+                        <span className='card-detail-badge'>SQLite3 </span>
                         {/* <span className='card-detail-badge'></span> */}
                     </div>
                     <div className='card-body text-center'>

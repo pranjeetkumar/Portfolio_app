@@ -24,7 +24,7 @@ const Education = () => {
   >
     <h3 className="vertical-timeline-element-title">B.Tech CSE (LEET)</h3>
     <h4 className="vertical-timeline-element-subtitle">I.K. Gujral Punjab Technical University (Main Campus), Kapurthala</h4>
-    <p>7.6 SGPA</p>
+    <p>7.6 SGPA (Till 6th Sem)</p>
   </VerticalTimelineElement>
     <VerticalTimelineElement
     className="vertical-timeline-element--work"
@@ -34,7 +34,7 @@ const Education = () => {
     iconStyle={{ background: '#138781', color: '#fff' }}
     icon={<MdSchool/>}
   >
-    <h3 className="vertical-timeline-element-title">PSBTE & IT (LEET)</h3>
+    <h3 className="vertical-timeline-element-title">PSBTE & IT (CSE LEET)</h3>
     <h4 className="vertical-timeline-element-subtitle">Mehr Chand Polytechnic College, Jalandhar City</h4>
     <p>76.6%</p>
   </VerticalTimelineElement>
@@ -46,7 +46,7 @@ const Education = () => {
     iconStyle={{ background: '#138781', color: '#fff' }}
     icon={<MdSchool/>}
   >
-    <h3 className="vertical-timeline-element-title">PSEB(XII) </h3>
+    <h3 className="vertical-timeline-element-title">PSEB(10+2 Science)</h3>
     <h4 className="vertical-timeline-element-subtitle">Govt. Model Co-Edu. Senior Secondary School, Jalandhar City</h4>
     <p>71.5%</p>
   </VerticalTimelineElement>
@@ -58,7 +58,7 @@ const Education = () => {
     iconStyle={{ background: '#138781', color: '#fff' }}
     icon={<MdSchool/>}
   >
-    <h3 className="vertical-timeline-element-title">PSEB(X)</h3>
+    <h3 className="vertical-timeline-element-title">PSEB(10th)</h3>
     <h4 className="vertical-timeline-element-subtitle">Sada Sukh Chopra S.D. Public Senior Secondary School, Jalandhar City</h4>
     <p>82.9%</p>
   </VerticalTimelineElement>

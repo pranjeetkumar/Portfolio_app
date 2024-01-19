@@ -3,7 +3,8 @@ import { toast } from 'react-toastify';
 import axios from "axios";
 import "../Contact/Contact.css";
 import contact_img from "../../assets/images/Contact-us.png";
-import {BsGithub, BsInstagram, BsLinkedin} from 'react-icons/bs'
+import {BsGithub, BsLinkedin} from 'react-icons/bs'
+import { TfiEmail } from "react-icons/tfi";
 import Rotate from 'react-reveal/Rotate';
 import Wobble from 'react-reveal/Wobble';
 
@@ -61,9 +62,9 @@ const Contact = () => {
                         <div className='row'>
                             <div className='row'>
                                 <h4>Contact with 
-                                    <BsLinkedin color='blue'size={25} className='ms-2'/>
-                                    <BsGithub color='black'size={25} className='ms-2'/>
-                                    <BsInstagram color='red'size={25} className='ms-2'/>
+                                    <a href='https://www.linkedin.com/in/pranjeet-kumar-b73698206' rel='noreferrer' target='_blank'><BsLinkedin color='blue'size={25} className='ms-2'/></a>
+                                    <a href='https://github.com/pranjeetkumar' rel='noreferrer' target='_blank'><BsGithub color='black'size={25} className='ms-2'/></a>
+                                    <a href='mailto: pranjeetkumarmahto@gmail.com' rel='noreferrer' target='_blank'><TfiEmail color='#d44638'size={25} className='ms-2'/></a>
                                 </h4>
                             </div>
                             
